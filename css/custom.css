@@ -1,0 +1,39 @@
+/* root */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+:root {
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --mainBg: hsl(217, 54%, 11%);
+  --cardBg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: var(--mainBg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--softBlue);
+}
+
+.card {
+  background: var(--cardBg);
+  width: 50%;
+}
+
+.eth {
+  color: var(--cyan);
+}
+
+#avatar {
+  width: 13%;
+  margin-right: 0.8rem;
+}
+
+.divider-horizontal {
+  height: 0.1px;
+  background: var(--line);
+}/*# sourceMappingURL=custom.css.map */
