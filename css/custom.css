@@ -36,4 +36,12 @@ body {
 .divider-horizontal {
   height: 0.1px;
   background: var(--line);
+}
+
+a {
+  color: white;
+  transition: 0.3s ease;
+}
+a:hover {
+  color: var(--cyan);
 }/*# sourceMappingURL=custom.css.map */

@@ -45,3 +45,11 @@ body {
   height: 0.1px;
   background: var(--line);
 }
+
+a {
+  color: white;
+  transition: 0.3s ease;
+  &:hover {
+    color: var(--cyan);
+  }
+}
